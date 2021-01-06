@@ -1,0 +1,70 @@
+html,
+body {
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.gradient {
+    background: rgb(238, 174, 202);
+    background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.page-header {
+    margin-top: 5rem;
+    font-size: 1.25rem;
+    color: #fff;
+
+}
+
+.feature {
+    color: #fff;
+}
+
+.feature ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+.feature ul li {
+    padding-left: 2rem;
+    background-image: url(../img/check.svg);
+    background-repeat: no-repeat;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.icon {
+    color: white;
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.75rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery {
+    background-color:whitesmoke;
+    color: gray;
+}
+.gallery h4{
+    color: #00BCD9;
+}
+.services{
+    color: white;
+}
+.services button{
+    
+}
+footer{
+    color:white;
+    font-size: 1rem;
+    margin:0 ;
+    padding: 1rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
